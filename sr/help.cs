@@ -22,5 +22,10 @@ namespace sr
 
             this.Hide();
         }
+
+        private void bunifuButton1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

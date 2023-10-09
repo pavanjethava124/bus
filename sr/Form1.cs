@@ -28,12 +28,21 @@ namespace sr
             if (progressbar.Value >= progressbar.Maximum)
             {
                 timer1.Stop();
-                //this.Hide();
+              
                 mainform f = new mainform();
-                // f.ShowDialog();
                 this.Hide();
                 f.Show();
             }
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }

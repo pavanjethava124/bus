@@ -33,8 +33,8 @@ namespace sr
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.bunifuGradientPanel1 = new Bunifu.UI.WinForms.BunifuGradientPanel();
-            this.progressbar = new CircularProgressBar.CircularProgressBar();
             this.label1 = new System.Windows.Forms.Label();
+            this.progressbar = new CircularProgressBar.CircularProgressBar();
             this.bunifuGradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,15 +52,26 @@ namespace sr
             this.bunifuGradientPanel1.Controls.Add(this.label1);
             this.bunifuGradientPanel1.Controls.Add(this.progressbar);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(92)))), ((int)(((byte)(188)))));
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.DeepPink;
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.DodgerBlue;
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(60)))), ((int)(((byte)(212)))));
+            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.DarkViolet;
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.Teal;
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.RoyalBlue;
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.BlueViolet;
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
             this.bunifuGradientPanel1.Size = new System.Drawing.Size(874, 380);
             this.bunifuGradientPanel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(256, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(339, 48);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Welcome to SRTC";
             // 
             // progressbar
             // 
@@ -94,17 +105,6 @@ namespace sr
             this.progressbar.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
             this.progressbar.Value = 68;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(256, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(339, 48);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Welcome to SRTC";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -117,6 +117,7 @@ namespace sr
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
             this.ResumeLayout(false);

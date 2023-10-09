@@ -120,10 +120,21 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="bunifuButton1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAC8AAAAYCAYAAABqWKS5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABKSURBVFhH7c4xEQAgDMBAlGAZ/CGDvQUB7KF3GX7KktZn
-        rD4z64l151+hBucpzlOcpzhPcZ7iPMV5ivMU5ynOU4rPj9iv8L0R+wBpFcYgBZbbHAAAAABJRU5ErkJg
-        gg==
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAiCAYAAAAZHFoXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABUSURBVFhH7c8xEQAgDMBAlGAZ/CGDvQUB7LlyGX7KlNZn
+        rD4za4p1B16hDgdoDtAcoDlAc4DmAM0BmgM0B2gO0BygOUBzgOYAzQHaBwMj9iuUMGIftB0JGrM6JdQA
+        AAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Welcome to  Saurastra Road Transport Corporation, abbreviated SRTC, is a Government State Transport Undertaking of Gujarat for passengers facilitating with road public transport in moffusil / city services. SRTC. It has a fleet of 45 buses.
+
+-&gt; SRTC has been incorporated  7 divisions, 76 depots and 7 divisional workshops, which has been expanding. The public undertaking is covering 87% of the villages and 99% population of Gujarat in addition to plying to major cities of the country (in long-distance routes).
+
+-&gt; First in country to introduce GPS/PIS based Bus Tracking &amp; Passenger Information System for Monitoring in SRTC buses.
+
+-&gt; 14000 Electronic Ticketing Machines have been introduced in all 7496 Schedules.
+
+-&gt; SRTC have launched its own. Online time table for express services has been uploaded on website and also through SMS Internet based online passenger reservation system for passengers as well as E-Ticketing for Public.</value>
   </data>
 </root>

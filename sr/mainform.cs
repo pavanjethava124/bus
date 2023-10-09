@@ -75,7 +75,7 @@ namespace sr
             }
             if (IsOpen == false)
             {
-                help h = new help();
+                helps h = new helps();
                 h.MdiParent = this;
                 h.Show();
             }
@@ -84,6 +84,11 @@ namespace sr
         private void bunifuButton1_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void mainform_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -22,5 +22,27 @@ namespace sr
             this.Hide();
        
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            richTextBox1.ZoomFactor = 1;
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            richTextBox1.ZoomFactor = 3;
+
+        }
+
+        private void about_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

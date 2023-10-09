@@ -17,104 +17,40 @@ namespace sr
             this.Hide();
         }
 
-        private void bunifuGradientPanel1_Click(object sender, EventArgs e)
+        
+        private void bunifuImageButton1_Click_2(object sender, EventArgs e)
         {
-
-        }
-
-        private void bunifuImageButton4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuImageButton1_Click(object sender, EventArgs e)
-        {
-
+            bus b = new bus();
+            b.Show();
+            this.Hide();
         }
 
         private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
+            search s = new search();
+            s.Show();
+            this.Hide();
+        }
 
+        private void bunifuImageButton4_Click(object sender, EventArgs e)
+        {
+            time_table tn = new time_table();
+            tn.Show();
+            this.Hide();
+      }
+
+        private void bunifuImageButton5_Click(object sender, EventArgs e)
+        {
+            login lgn = new login();
+            lgn.Show();
+            this.Hide();
         }
 
         private void bunifuImageButton3_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void bunifuGradientPanel1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuImageButton2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuImageButton4_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuImageButton3_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuImageButton1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label2_Click_1(object sender, EventArgs e)
-        {
-
+            cancel ca = new cancel();
+            ca.Show();
+            this.Hide();
         }
     }
 }
